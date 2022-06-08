@@ -3,8 +3,8 @@
 
 #include <Arduino.h> // default Arduino Library
 
-void setupLEDS();
-void colorLED(int bulb, int color);
-int decideColor(float num);
+void setupLEDS(); // initializes the LED's on breadboard to appropriate pins
+void colorLED(int bulb, int color); // sets given LED to specified color
+int decideColor(float num); // determines color for LED based on given number
 
 #endif
